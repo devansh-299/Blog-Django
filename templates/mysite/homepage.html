@@ -1,0 +1,11 @@
+{% load static %}
+<html>
+<head>
+	<title><h1>Devansh Blog</h1></title>
+	<link rel="stylesheet" href="{% static 'css/homepage.css' %}">  
+</head>
+<body>
+	<h2> Welcome to my blog! </h2>
+	<p><a href="{% url 'post_list' %}">Go to my blogs</a>
+</body>
+</html>
